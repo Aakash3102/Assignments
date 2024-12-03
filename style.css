@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: white;
+    box-shadow: 0 1px 2px rgba(167, 82, 82, 0.1);
+  }
+  
+  .logo {
+    font-size: 3rem;
+    color: #0078ff;
+    font-family: "Nunito", sans-serif;
+  }
+  
+  .nav a {
+    font-size: x-large;
+    margin: 0 1rem;
+    text-decoration: none;
+    color: #333;
+    font-family: "Nunito", sans-serif;
+  }
+  
+  .nav a:hover {
+    color: #0078ff;
+  }
+
+
+  /*  main  */
+  .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Nunito", sans-serif;
+  }
+  
+  .enquiry-form {
+    background: white;
+    border-radius: 8px;
+    max-width: 500px;
+    width: 100%;
+  }
+  .cont{
+    background-color: rgb(248, 250, 251);
+    padding: 20px 50px 50px 50px;
+  }
+  .enquiry-form .c1 h1{
+    padding: 5vh;
+    text-align: center;
+    background-color: rgb(235, 247, 253);
+    font-size: 5vh;
+  }
+   .enquiry-form h3 {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 1.5rem;
+  }
+  .enquiry-form p {
+    margin-bottom: 1rem;
+    color: #666;
+  }
+  .form-group {
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 5px;
+}
+.enquiry-form button {
+    display: block;
+    width: 33%;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #0078ff;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 2rem;
+    font-family: "Nunito", sans-serif;
+  }
+
+label {
+    width: 100px; 
+    text-align: left; 
+    font-size: 17px; 
+}
+input {
+    width: 43vh;
+    padding: 8px; 
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+    font-size: 14px; 
+    text-align: left;
+}
+/* Footer */
+.footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #333;
+  color: white;
+  padding: 2rem;
+  flex-wrap: wrap;
+  font-family: "Nunito", sans-serif;
+}
+
+.footer-section {
+  margin: 1rem;
+  flex: 1;
+}
+
+.footer-section h2 {
+  margin-bottom: 1.5rem;
+  color: #0078ff;
+  align-items: center;
+  text-align: center;
+}
+
+.footer-section p, .footer-section ul {
+  font-size: 1rem;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+  align-items: center;
+  text-align: center;
+}
+
+.footer-section ul li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-section ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-section ul li a:hover {
+  color: #0078ff;
+}
